@@ -1,4 +1,4 @@
 venv/
 *.log
-*.sqlite
+*.sqlite3
 *.idea
