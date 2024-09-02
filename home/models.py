@@ -7,7 +7,6 @@ class NewsModel(models.Model):
     news_maker = models.CharField(max_length=255)
     news_text = models.TextField()
     reliability_score = models.IntegerField(null=True, blank=True)
-    created_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
         return self.news_maker
