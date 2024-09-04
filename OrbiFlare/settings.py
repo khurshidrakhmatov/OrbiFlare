@@ -27,7 +27,9 @@ SECRET_KEY = 'django-insecure-$#@nc&5-q!8nbbl)vu0%(d_$+g10=2(@lc!*kl=sr2bg63lnrw
 # DEBUG = config('DEBUG', cast=bool)
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['orbiflare.201.uz']
+
+CSRF_TRUSTED_ORIGINS = ['https://orbiflare.201.uz']
 
 # Application definition
 
