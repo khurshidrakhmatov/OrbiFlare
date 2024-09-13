@@ -31,8 +31,8 @@ import pandas as pd
 # ensure_nltk_data()
 
 # Download NLTK data
-# nltk.download('punkt')
-# nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('stopwords')
 
 # Preprocess text
 def preprocess_text(text, stopwordlist):
